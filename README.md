@@ -33,19 +33,20 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 - NumPy
 - Scikit-learn
 - Matplotlib
+
 ## Results
 
 ### Training vs Validation Loss
 
-![Training Loss](training_validation_loss.png)
+![Training Loss](heat%20images/training_validation_loss.png)
 
 ### ROC Curve
 
-![ROC Curve](roc_curve.png)
+![ROC Curve](heat%20images/roc_curve.png)
 
 ### F1-score vs Threshold
 
-![F1 Threshold](f1_threshold_curve.png)
+![F1 Threshold](heat%20images/f1_threshold_curve.png)
 
 ### Final Performance
 
@@ -58,11 +59,17 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 | ROC-AUC | **0.9466** |
 | Brier Score | 0.1140 |
 
-![Evaluation Metrics](evaluation_metrics.png)
+![Evaluation Metrics](heat%20images/evaluation_metrics.png)
 
 ## Repository Structure
 
-```
+```text
+heat images/
+├── training_validation_loss.png
+├── roc_curve.png
+├── f1_threshold_curve.png
+└── evaluation_metrics.png
+
 heatwave_prediction.ipynb
 README.md
 ```
