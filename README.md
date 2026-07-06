@@ -37,15 +37,15 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 
 ### Training vs Validation Loss
 
-![Training Loss](images:training_validation_loss.png)
+![Training Loss](training_validation_loss.png)
 
 ### ROC Curve
 
-![ROC Curve](images:roc_curve.png)
+![ROC Curve](roc_curve.png)
 
 ### F1-score vs Threshold
 
-![F1 Threshold](images:f1_threshold_curve.png)
+![F1 Threshold](f1_threshold_curve.png)
 
 ### Final Performance
 
@@ -58,7 +58,7 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 | ROC-AUC | **0.9466** |
 | Brier Score | 0.1140 |
 
-![Evaluation Metrics](images:evaluation_metrics.png)
+![Evaluation Metrics](evaluation_metrics.png)
 
 ## Repository Structure
 
