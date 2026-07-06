@@ -33,10 +33,32 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 - NumPy
 - Scikit-learn
 - Matplotlib
-
 ## Results
 
-- ROC-AUC: **0.947**
+### Training vs Validation Loss
+
+![Training Loss](images/training_validation_loss.png)
+
+### ROC Curve
+
+![ROC Curve](images/roc_curve.png)
+
+### F1-score vs Threshold
+
+![F1 Threshold](images/f1_threshold_curve.png)
+
+### Final Performance
+
+| Metric | Value |
+|---------|------:|
+| Accuracy | 0.8395 |
+| Precision | 0.6355 |
+| Recall | 1.0000 |
+| F1-score | 0.7771 |
+| ROC-AUC | **0.9466** |
+| Brier Score | 0.1140 |
+
+![Evaluation Metrics](images/evaluation_metrics.png)
 
 ## Repository Structure
 
