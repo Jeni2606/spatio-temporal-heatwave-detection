@@ -41,7 +41,7 @@ The project uses ERA5 climate reanalysis data obtained from the Copernicus Clima
 
 ### ROC Curve
 
-![ROC Curve](images/roc_curve.png)
+![ROC Curve](images:roc_curve.png)
 
 ### F1-score vs Threshold
 
